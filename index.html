@@ -1,203 +1,276 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-<script src="https://kit.fontawesome.com/61c3e49273.js" crossorigin="anonymous"></script>
-  <title>Site</title>
-  <style>
-.header{
-  background-color: green;
-  height:200px;
-}
-    *{
-  border-radius-left:1px;
-  padding:2px;
-}
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<title>Resume</title>
+<style>
 
+	header{
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		
+	}
+	hr{
+		width: 95%;
+		margin: auto;
+		border:0px;
+        border-top:5px double black;
+	}
+	.carrer{
+		font-size: 15px;
+		margin: auto;
+		width: 95%;
+		background-color: lightgrey;
+		color:black;
+	}
+	.carrerpara{
+		width: 95%;
+		margin: auto;
+		font-size: 13px;
+	}
+	.eduqua{
+		width: 95%;
+		margin: auto;
+		background-color: lightgrey;
+	}
+	table{
+		border:1px solid black;
+		border-collapse: collapse;
+		width:95%;
+	    margin: auto;
+	    font-size: 10px;
+	}
+	tr{
+		border:1px solid black;
+		text-align: center;
+		
+	}
+	td{
+		border:1px solid black;
+		text-align: center;
+	
+	}
+	th{
+		border:1px solid black;
+		width: 19%;
+	}
+	.techskills{
+		width: 95%;
+		background-color: lightgrey;
+		margin: auto;
+	}
+	.skills{
+		font-size: 13px;
+		width: 95%;
+		margin: auto;
+	}
+	.internship{
+		width: 95%;
+		margin: auto;
+		background-color: lightgrey;
+	}
+	.interndet{
+		width: 95%;
+		margin: auto;
+		font-size: 13px;
+	}
+	.curricular{
+		width: 95%;
+-		margin: auto;
+		background-color: lightgrey;
+	}
+	.activities{
+		font-size: 13px;
+		width: 95%;
+		margin:auto;
+	}
+	.personaltraits{
+		width: 95%;
+		margin: auto;
+		background-color: lightgrey;
+	}
+	.perstraitdet{
+		font-size: 13px;
+		width: 95%;
+		margin: auto;
+	}
+	.personalinfo{
+		width: 95%;
+		margin: auto;
+		background-color: lightgrey;
+	}
+	.fathers{
+		width: 95%;
+		margin: auto;
+		font-size: 13px;
 
+	}
+    .dob{
+    	width: 95%;
+    	margin: auto;
+    	font-size: 13px;
+    }
+    .languages{
+    	width: 95%;
+    	margin: auto;
+    	font-size: 13px;
 
- 
-    
-    .center{
-      display:block;
-      margin-left:auto;
-      margin-right:auto;
-      width:45px;
-      height:49px;
     }
-    
-    .link{
-       color:red;
-       background-color: none;
+    .hobbies{
+    	width: 95%;
+    	margin: auto;
+    	font-size: 13px;
     }
-    .link:hover{
-      display:inline-block;
-      color:white;
-      background-color: green;
-      text-decoration: none;
+    .address{
+    	width: 95%;
+    	margin: auto;
+    	font-size: 13px;
     }
-    .animation{
-      animation: text 2s 1;
+    .declaration{
+    	width: 95%;
+    	margin: auto;
+    	background-color: lightgrey;
     }
-    .animation:hover{
-      color: green;
-    }
-    .animation1:hover{
-      color: green;
-    }
-    div p:hover{
-      color:blue;
-    }
-    div a:hover{
-       background-color: green;
-       color:white;
-       display:all;
-    }
-    @keyframes text{
-      0%{
-        letter-spacing: 10px;
-        margin-bottom: 15px;
-      }
-     
-      50%{
-        letter-spacing: 30px;
-        margin-bottom: 38px;
-      }
-      
-      100%{
-        letter-spacing: 40px;
-        margin-bottom: 65px;
-      }
-    }
-    #justify{
-      margin-left: -4px;
-    }
-       
-    div.gif{ background-image:
-    url("https://media.giphy.com/media/gcZxPiUFzoHgA/giphy.gif");
-    background-repeat: no-repeat; background-position: center;
-    background-attachment: fixed;
-      
-     } 
-     .far{
-      padding-top: 0px; 
-      } 
-      div.gif1{
-       background-image:url("https://media.giphy.com/media/gcZxPiUFzoHgA/giphy.gif");
-    background-repeat: no-repeat;
-       background-position: center;
-    background-attachment: fixed; 
-    height: 150px;
-       
-      }
-    @media screen and(max-width:650px){
-      .youtube{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        width:60%;
-        height:15%;
-    }
-    }
-    @media screen and (max-width:1366px){
-      .youtube{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        width:90%;
-        height:15%;
-    }
-    }
-   #navbar{
-   margin:1px;
-   display: block;
-   border-radius:650px;
-   margin-left:10px;
-   border:3px solid ;
-   margin-right:35px;
-   color:green;
-   box-shadow:1px 1px 2px 3px;
-   padding:5px;
-   transition: top 0.3s;
-   position: fixed;
-   top:256px;
-   height: 20px;
-   width: 90%;
-   background-color: palegreen;
-   overflow:hidden;   
-    }
+    .declarationpara{
+    	font-size: 13px;
+    	width: 95%;
+    	margin: auto;
 
-    #navbar:hover{
-        color:blue;
-        background-color: white;
     }
-    
-    
-    
+    .date{
+    	font-size: 13px;
+    	width: 95%;
+    	margin: auto;
+    }
+    .signature{
+
+    	float: right;
+    	margin: auto;
+    	font-size: 13px;
+
 </style>
 </head>
 <body>
-  <form>
-    
-<div class="header">
-  <h1 style="text-align:center;">Practical One</h1>
-  
-  <marquee  behavior="scroll" direction="down" style="text-align: center;">A <b>Trustable</b> Site on Internet.</marquee>
-  <img class="center" src="https://i.redd.it/neodv4gvbwm21.jpg" alt="sic mundus creatus est" >
-  
-
-  </div>
-  <a href="#" id="justify"><i class="fas fa-align-justify" style="font-size:30px;color:blue;background-color:none;"></i></a>
-  <p style="text-align:center;"><i>Sic Mundus Creatus Est</i></p>
-  <br>
-  
-<div id="navbar">
-<a  class="home" href="https://nagagovardhanthath.wixsite.com/website" alt="site" target="_blank"  title="Blog" style="text-decoration:none;padding: 5px;">Home</a>
-<a class="about" href="https://youtu.be/v8AW1R6Npqc" alt="tenet" target="_blank"  title="Tenet" style="text-decoration:none;padding:5px;">About us</a>
-<a href="tel:0123-456-789" target="_blank" style="float: right;"><i class="far fa-address-book"></i></a>
-  
-
-  </div>
-    <div class="gif1"></div> 
-<div style="margin:15px;">
-  <h2 class="animation">TENET:</h2>
-  <ul style="line-height: 30px;">
-    <li>Tenet (stylized as TENƎꓕ) is an upcoming science fiction action thriller film written and directed by <b><i>Ameer Basha</i></b>. It stars Purna Kishore, Srinivas , Murali Krishna and Ameer Basha.
-
-Casting began in February 2019, and principal photography took place in Denmark, Estonia, India, Italy, Norway, the United Kingdom, and the United States, starting in May 2019. Cinematographer Ameer Basha and Racu Vamsi shot on 70 mm and IMAX.</li>
-  </ul>
-
-  <h2 class="animation1">Casting:
-  </h2>
-  <ul style="line-height: 30px;">
-    <li>Purna Kishore, Srinivas and Ameer Basha were cast in February 2019. Purna Kishore said the screenplay was kept so secretive that he was only permitted to read it once while locked in a room. The casting of Racu vamsi, Purna Kishore and Auto Uncle's shots was announced as filming started. Avinash echoed Purna Kishore's comments about the script's confidentiality. For one day of work, he was merely given his pages and had not heard from Ameer since. Murali  joined in th end of February, with Purna Kishore being added the following month. Ameer was revealed upon the release of the first trailer. In February 2020, Avinash made his involvement known.</li>
-  </ul>
- 
-        
-</div>
-<div class="gif" style="height:180px;"><p style="text-align: center;color:red;">Scroll Slowly...</p></div>
-    <div></div>
-<iframe class="youtube" allowfullscreen="allowfullscreenx" frameborder="0" height="300px" src="https://www.youtube.com/embed/v8AW1R6Npqc"  target="_parent"></iframe>
-<p style="text-align:center;">If the video doesn't work, that means that the owner of the video doesn't want to embed his video. Soo <a class="link" href="https://youtu.be/v8AW1R6Npqc" title="TENƎꓕ Short film" target="_blank">Click This---></a></p>
-<iframe class="youtube" height="300"  src="https://www.youtube.com/embed/ALZHF5UqnU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p style="text-align: center;">This was one of the embed youtube video</p> 
-
-    <script>
-      window.onscroll =function() {scrollFunction()};
-      function scrollFunction(){
-        if (document.body.scrollTop>20||document.documentElement.scrollTop>20)
-        {
-          document.getElementById("navbar").style.top="0px";
-        }
-        else
-        {
-          document.getElementById("navbar").style.top="256px";
-        }
-      }
-    </script>
-    
-    
-</form>
+	<header>
+		<h3>Naga Govardhan Thatha</h3>
+	</header><br>
+	<div  class="contdet" style="float: right;padding-right: 3%;font-size:75%;" >
+		<a href="mailto:govardhan4f8@gmail.com">govardhan4f8@gmail.com</a><br><br>
+		<a href="tel:+91 82 97 29 78 45">+91 82 97 29 78 45</a>
+	</div><br>
+	<div><br><br>
+		<hr>
+	</div><br>
+	<div class="carrer">
+     	<h4>Carrer Objective:</h4>
+     </div>
+     <div class="carrerpara">
+     	<p>Seeking a position to utilize my skills and abilities in the Information Technology that offers professional growth while being resourceful, innovative and flexible.</p>
+     </div>
+     <div class="eduqua">
+     <h4>Educational Qualifications:</h4>
+     </div>
+     <div class="qualifications">
+     	<table>
+     		<tr>
+     			<th>Course</th>
+     		    <th>Institution</th>
+     		    <th>Board/University</th>
+     		    <th>Year of completion</th>
+     		    <th>Percentage</th>
+     		</tr>
+     		<tr>
+     			<td>B.Tech(ECE)</td>
+     			<td>Kallam Haranadhareddy Institute Of Technology,Guntur</td>
+     			<td>JNTU-Kakinada</td>
+     			<td>2020</td>
+     			<td>67</td>
+     		</tr>
+     		<tr>
+     			<td>Intermediate (MPC)</td>
+     			<td>Sri Chaitanya Junior College, Guntur.</td>
+     			<td>Board Of Intermediate Education</td>
+     			<td>2016</td>
+     			<td>86</td>
+     		</tr>
+     		<tr>
+     			<td>SSC</td>
+     			<td>Vignan High school, Guntur.</td>
+     			<td>Board Of Secondary Education</td>
+     			<td>2014</td>
+     			<td>90</td>
+     		</tr>
+     	</table>
+    </div>
+    <div class="techskills">
+    	<h4>Technical Skills:</h4>
+    </div>
+    <div class="skills">
+    	<p>Programming Languages&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;C, HTML, CSS, JAVA(BASICS)</p>
+    	<p>Office Suites&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;Ms Office</p>
+    	<p>Design Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;MATLAB,Arduino
+    </div> 
+    <div class="internship">
+    	<h4>Internship Projects:</h4>
+    </div>
+    <div class="interndet">
+    	<p>Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Study of Manufacturing of Turbo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generators</p>
+    	<p>Duration&Place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28 days at Bharat Heavy Electricals &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limited(BHEL), Hyderabad.</p>
+    </div>
+    <div class="curricular">
+    	<h4>CO & Extra Cirricular Activities:</h4>
+    </div>
+    <div class="activities">
+    	<ul>
+    		<li>Attended a Two day national level workshop on Digital Design Through Arduino at Kallam Haranadhareddy Institute Of Technology.</li>.
+    		<li>Underwent a workshop on Mathematical Perspective Of Signals & Systems Using MATLAB at Kallam Haranadhareddy Institute Of Technology.</li>.
+    		<li>Certified in a workshop on  Matlab Symposium by ECENTRIX  in University College of Engineering Narasaraopet.</li>.
+    		<li>Certified by Dakshin Bharat Hindi Prachar Sabha for Rashtra.</li>.
+    		<li>Participated in a Technical quiz of Srujanankura 2k19.</li>
+    	</ul>
+    </div>
+    <div class="personaltraits">
+    	<h4>Personal Traits:</h4>
+    </div>
+    <div class="perstraitdet">
+    	<ul>
+    		<li>Flexible & Quick Learner</li>.
+    		<li>Problem solving skills</li>.
+    		<li>Active Initiater</li>
+    	</ul>
+    </div>
+    <div class="personalinfo">
+    	<h4>Personal Information</h4>
+    </div>
+    <div class="fathers">
+    	<p>Father's Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mr.Srinivas Thatha</p>
+    </div>
+    <div class="dob">
+    	<p>Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31 Jan 1999.</p>
+    </div>
+    <div class="languages">
+    	<p>Languages Known&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telugu, Hindi, English.</p>
+    </div>
+    <div class="hobbies">
+    	<p>Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Playing Cricket & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Volleyball, Listening Music, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Browsing Web.</p>
+    </div>
+    <div class="address">
+    	<p>Address for communication&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.No:1-35-29, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maruthinagar, 5th Lane, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pattabhipuram, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guntur-&nbsp;522006, A.P.</p>
+    </div>
+    <div class="declaration">
+    	<h4>Declaration:</h4>
+    </div>
+    <div class="declarationpara">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hereby declare that the above-furnished information is true to the best of my knowledge.</p>
+    </div>
+    <div class="date">
+    Date:<br><br>
+    Place:<br>
+    </div>
+    <div class="signature" style="width:45%;">
+    	<p>(Naga Govardhan Thatha)</p>
+    </div>
 </body>
 </html>
