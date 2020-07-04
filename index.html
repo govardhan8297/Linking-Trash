@@ -3,9 +3,15 @@
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <title>Resume</title>
 <style>
-
+    body{
+        font-size: 18px;
+    }
 	header{
 		padding: 0px;
 		margin: 0px;
@@ -16,10 +22,10 @@
 		width: 95%;
 		margin: auto;
 		border:0px;
-        border-top:5px double black;
+        border-top:7px double black;
 	}
 	.carrer{
-		font-size: 15px;
+		
 		margin: auto;
 		width: 95%;
 		background-color: lightgrey;
@@ -28,7 +34,7 @@
 	.carrerpara{
 		width: 95%;
 		margin: auto;
-		font-size: 13px;
+		font-size: 15px;
 	}
 	.eduqua{
 		width: 95%;
@@ -39,18 +45,24 @@
 		border:1px solid black;
 		border-collapse: collapse;
 		width:95%;
-		padding:0;
-       	        margin: auto;
-	        font-size: 10px;
+	    margin: auto;
+	    font-size: 10px;
+        padding: 0;
+
 	}
+    th{
+        line-height: 40px;
+    }
 	tr{
 		border:1px solid black;
 		text-align: center;
-		
+		font-size: 15px;
+        line-height: 30px;
 	}
 	td{
 		border:1px solid black;
 		text-align: center;
+        font-size: 15px;
 	
 	}
 	th{
@@ -79,11 +91,11 @@
 	}
 	.curricular{
 		width: 95%;
--		margin: auto;
+		margin: auto;
 		background-color: lightgrey;
 	}
 	.activities{
-		font-size: 13px;
+		font-size: 15px;
 		width: 95%;
 		margin:auto;
 	}
@@ -93,7 +105,7 @@
 		background-color: lightgrey;
 	}
 	.perstraitdet{
-		font-size: 13px;
+		font-size: 15px;
 		width: 95%;
 		margin: auto;
 	}
@@ -135,22 +147,21 @@
     	background-color: lightgrey;
     }
     .declarationpara{
-    	font-size: 13px;
+    	font-size: 15px;
     	width: 95%;
     	margin: auto;
 
 
     }
     .date{
-    	font-size: 13px;
+    	font-size: 15px;
     	width: 95%;
     	margin: auto;
     }
-    .signature{
-
+    .sign{
     	float: right;
-    	
-    	font-size: 13px;
+        
+    	font-size: 15px;
     }
     span{
         display: inline-flex;
@@ -158,11 +169,64 @@
     .firsthalf{
         width:47.4%;
         margin: auto;
+        font-size: 15px;
     }
     .secondhalf{
         width:47.4%;
         margin: auto;
         padding: 3px;
+        font-size: 15px;
+    }
+    
+    @media screen and (max-width:800px) {
+        h3{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 16px;
+        }
+        body{
+            font-size: 18px;
+        }
+        hr{
+            border:0px;
+            border-top:5px double black;
+        }
+        td{
+            font-size:10px ;
+        }
+        body{
+            font-size: 17px;
+        }
+        th{
+           line-height: 19px;
+           font-size: 10px;
+           width: 95%;
+           margin: auto;
+        }
+        tr{
+            line-height: 16px;
+            font-size: 16px;
+        }
+        p{
+            font-size: 13px;
+        }
+        .activities{
+            font-size: 13px;
+        }
+        .perstraitdet{
+            font-size: 13px;
+        }
+        .declarationpara{
+            font-size: 13px;
+        }
+        .date{
+            font-size: 13px;
+        }
+        .sign{
+            font-size: 13px;
+            
+        }
     }
 </style>
 </head>
@@ -178,13 +242,13 @@
 		<hr>
 	</div><br>
 	<div class="carrer">
-     	<h4>Carrer Objective:</h4>
+     	<h5>Carrer Objective:</h5>
      </div>
      <div class="carrerpara">
      	<p>Seeking a position to utilize my skills and abilities in the Information Technology that offers professional growth while being resourceful, innovative and flexible.</p>
      </div>
      <div class="eduqua">
-     <h4>Educational Qualifications:</h4>
+     <h5>Educational Qualifications:</h5>
      </div>
      <div class="qualifications">
      	<table>
@@ -217,24 +281,24 @@
      			<td>90</td>
      		</tr>
      	</table>
-    </div>
+    </div><br>
     <div class="techskills">
-    	<h4>Technical Skills:</h4>
+    	<h5>Technical Skills:</h5>
     </div>
     <div class="skills">
-    	<span class="firsthalf"><p>Programming Languages</p></span>:<span class="secondhalf"><p>C, HTML, CSS, JAVA(BASICS)</p></span>
-    	<span class="firsthalf"><p>Office Suites</p></span>:<span class="secondhalf"><p>Ms Office</p></span>
-    	<span class="firsthalf"><p>Design Tools</p></span>:<span class="secondhalf"><p>MATLAB,Arduino</p></span>
+    	<span class="firsthalf"><p>Programming Languages</p></span><strong>:</strong><span class="secondhalf"><p>C, HTML, CSS, JAVA(BASICS)</p></span>
+    	<span class="firsthalf"><p>Office Suites</p></span><strong>:</strong><span class="secondhalf"><p>Ms Office</p></span>
+    	<span class="firsthalf"><p>Design Tools</p></span><strong>:</strong><span class="secondhalf"><p>MATLAB,Arduino</p></span>
     </div> 
     <div class="internship">
-    	<h4>Internship Projects:</h4>
+    	<h5>Internship Projects:</h5>
     </div>
     <div class="interndet">
     	<span class="firsthalf"><p>Title</p></span>:<span class="secondhalf"><p>Study of Manufacturing of Turbo Generators</p></span>
     	<span class="firsthalf"><p>Duration&Place</p></span>:<span class="secondhalf"><p>28 days at Bharat Heavy Electricals Limited(BHEL), Hyderabad.</p></span>
     </div>
     <div class="curricular">
-    	<h4>CO & Extra Cirricular Activities:</h4>
+    	<h5>Co & Extra Cirricular Activities:</h5>
     </div>
     <div class="activities">
     	<ul>
@@ -246,7 +310,7 @@
     	</ul>
     </div>
     <div class="personaltraits">
-    	<h4>Personal Traits:</h4>
+    	<h5>Personal Traits:</h5>
     </div>
     <div class="perstraitdet">
     	<ul>
@@ -256,7 +320,7 @@
     	</ul>
     </div>
     <div class="personalinfo">
-    	<h4>Personal Information</h4>
+    	<h5>Personal Information</h5>
     </div>
     <div class="fathers">
     	<span class="firsthalf"><p>Father's Name</p></span>:<span class="secondhalf"><p>Mr.Srinivas Thatha</p></span>
@@ -274,7 +338,7 @@
     	<span class="firsthalf"><p>Address for communication</p></span>:<span class="secondhalf"><p>D.No:1-35-29, Maruthinagar, 5th Lane, Pattabhipuram, Guntur-522006, A.P.</p></span>
     </div>
     <div class="declaration">
-    	<h4>Declaration:</h4>
+    	<h5>Declaration:</h5>
     </div>
     <div class="declarationpara">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hereby declare that the above-furnished information is true to the best of my knowledge.</p>
@@ -283,8 +347,9 @@
     Date:<br><br>
     Place:<br>
     </div>
-    <div class="signature">
-    	<span style="margin-right: 1em;"><p>(Naga Govardhan Thatha)</p></span>
-    </div>
+    <div class="sign">
+    	<span><p>(Naga Govardhan Thatha)</p></span>
+    </div><br>
+    
 </body>
 </html>
