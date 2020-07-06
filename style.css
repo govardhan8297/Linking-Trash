@@ -84,17 +84,21 @@ html,body{
     font-size: 30px;
     margin-top: 10px;
     list-style: none;
+
     }
     .footer_nav li{
         line-height: 20px;
         padding: 10px;
         display: inline-flex;
+        
     }
     .footer_nav li a i{
         background-color: rgb(236, 243, 236);
         font-size: 35px;
         border-radius: 50px;
+        
     }
+    
     .fa-facebook-square{
         color: blue;
     }
@@ -104,11 +108,12 @@ html,body{
     }
     .fa-whatsapp-square{
         color:green;
+        
     }
-    .fa -whatsapp-square:hover{
-        color:white;
+    .fa-whatsapp-square:hover{
+        color: white;
         background-color: green;
-    }  
+    }
 
 @media screen and (max-width:800px) {
     .nav_container ul li a{
