@@ -98,9 +98,17 @@ html,body{
     .fa-facebook-square{
         color: blue;
     }
+    .fa-facebook-square:hover{
+        color: white;
+        background-color: blue;
+    }
     .fa-whatsapp-square{
         color:green;
     }
+    .fa -whatsapp-square:hover{
+        color:white;
+        background-color: green;
+    }  
 
 @media screen and (max-width:800px) {
     .nav_container ul li a{
