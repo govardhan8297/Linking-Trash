@@ -66,10 +66,14 @@ html,body{
     height: 300px;
     padding: 10px;
     float: left;
+    margin: auto;
 }
 .main_footer_container{
     display: flex;  
     align-items: center;
+    width:50%;
+    margin: auto;
+    justify-content: center;
 }
 .main_footer_container h2{
     padding: 20px;
@@ -77,6 +81,7 @@ html,body{
 .footer_container{
     padding: 0.25px 0;
     background-color: grey;
+  
 }
 
 .footer_nav{
@@ -94,8 +99,8 @@ html,body{
     }
     .footer_nav li a i{
         background-color: rgb(236, 243, 236);
-        font-size: 35px;
-        border-radius: 50px;
+        font-size: 40px;
+        border-radius: 50%;
         
     }
     
@@ -134,5 +139,13 @@ html,body{
     }
     .main_footer_container h2{
         font-size: 22px;
+    }
+    .main_footer_container{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+    .footer_nav li a i{
+        font-size: 30px;
     }
 }
