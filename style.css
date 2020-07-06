@@ -28,10 +28,11 @@ html,body{
 }
 .nav_container ul li:hover{
     background-color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
 .nav_container ul li:hover a{
     color:gray;
+    
 }
 .nav_container ul li a:hover{
     color:gray;
@@ -88,6 +89,11 @@ html,body{
         line-height: 20px;
         padding: 10px;
         display: inline;
+    }
+    .footer_nav li a i{
+        background-color: rgb(236, 243, 236);
+        font-size: 35px;
+        border-radius: 50px;
     }
     .fa-facebook-square{
         color: blue;
